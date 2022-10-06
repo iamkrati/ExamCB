@@ -274,3 +274,7 @@ i:hover
 {
     background-color: black;
 }
+input
+{
+    color: white;
+}
