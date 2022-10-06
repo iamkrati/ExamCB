@@ -191,6 +191,10 @@ header:after {
 .box:hover
 {
     opacity: 0.6;
+    background: url(cameralogo.png);
+    text-align: center;
+    position: relative;
+    
 }
 
 .journey
@@ -277,4 +281,5 @@ i:hover
 input
 {
     color: white;
+    /*  */
 }
