@@ -24,6 +24,7 @@ header {
 .head {
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 ul {
@@ -182,19 +183,9 @@ header:after {
 {
     width: 800px;
 }
-.box himg
-{
-    position:  absolute;
-    top: 50px;
-    z-index: 100;
-}
 .box:hover
 {
-    opacity: 0.6;
-    background: url(cameralogo.png);
-    text-align: center;
-    position: relative;
-    
+    /* opacity: 0.6; */
 }
 
 .journey
@@ -255,6 +246,10 @@ header:after {
 {
     color: gray;
 }
+.last h6
+{
+    font-size: 20px;
+}
 i{
    color: aqua;
    padding: 10px 10px 10px 10px;
@@ -282,4 +277,62 @@ input
 {
     color: white;
     /*  */
+}
+.box i
+{
+    background-color: black;
+    margin-left: 50%;
+    margin-top: 50%;
+    
+}
+.box i
+{
+    color: white;
+    border: 2px solid white;
+}
+.bx
+{
+    background: url("https://images.unsplash.com/photo-1503965830912-6d7b07921cd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80");
+    background-size: cover;
+}
+.bxm i
+{
+    /* visibility: hidden; */
+    opacity: 0;
+}
+.bxm:hover
+{
+    /* opacity: 0.6; */
+    filter: grayscale(80%);
+}
+.bxm:hover i
+{
+    opacity: 1;
+}
+
+.bx1
+{
+    background: url("https://images.unsplash.com/photo-1518495973542-4542c06a5843?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    background-size: cover;
+}
+.bx2
+{
+    background: url("https://images.unsplash.com/photo-1528994618239-4d83bbdb7a0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    background-size: cover;
+}
+
+.bx3
+{
+    background: url("https://images.unsplash.com/photo-1500518928030-5e56ea44798a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    background-size: cover;
+}
+.bx4
+{
+   background: url("https://images.unsplash.com/photo-1529419412599-7bb870e11810?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+   background-size: cover;
+}
+.bx5
+{
+  background-size: cover;
+  background: url("https://images.unsplash.com/photo-1539693565400-356293b6df0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
 }
